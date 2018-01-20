@@ -1,0 +1,50 @@
+var movie1=[
+{
+year:2017,
+mov:"Aruvi",
+rating:4,
+language:"Tamil"
+},
+{
+year:2017,
+mov:"Bahubali 2",
+rating:5,
+language:"Tamil"
+},
+{
+year:2017,
+mov:"Mersal",
+rating:4,
+language:"Tamil"
+},
+{
+year:2018,
+mov:"ROBO 2.0",
+rating:4.5,
+language:"Tamil"
+},
+{
+year:2017,
+mov:"Vivegam",
+rating:4,
+language:"Tamil"
+},
+{
+year:2017,
+mov:"Fukrey Returns",
+rating:5,
+language:"Hindi"
+},
+{
+year:2015,
+mov:"Bajrangi Bhaijann",
+rating:4,
+language:"Hindi"
+}]
+
+display only the year
+var i;
+for(i=0;i<=6;i++){
+console.log(objjson.movieList[i].year);
+}
+
